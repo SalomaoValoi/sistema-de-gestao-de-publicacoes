@@ -1,0 +1,104 @@
+.login-form {
+    width: 60%;
+}
+
+.w-center {
+    width: 100%;
+}
+
+.h-center {
+    height: 100%;
+}
+
+.login-bg {
+    background: linear-gradient(to right, #8D93D5, #545DC1);
+}
+
+.login-img {
+    background-image: url('../img/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login_input {
+    border-bottom: 2px solid #ff0000;
+}
+
+.form-control-login,
+.form-control-login:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.icon {
+    background-color: white;
+    border: 0;
+}
+
+.form-control-login:focus-within>.login_input {
+    border-bottom: 2px solid #008000 !important;
+}
+
+.header {
+    border-top: 2px solid #545DC1;
+    border-bottom: 2px solid #545DC1;
+    padding: 5px;
+    background-color: #F7F7F7;
+}
+
+.footer {
+    background-color: #C9C9C9;
+}
+
+.nav-center {
+    display: inline-block;
+    float: none !important;
+}
+
+.texto {
+    line-height: 1.5rem;
+    font-size: 13pt;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    text-align: justify !important;
+}
+
+.btn-novo:hover {
+    color: red !important;
+}
+
+.bg-nav {
+    background: linear-gradient(to right, #545DC1, #8D93D5);
+}
+
+.menu-link:hover,
+.menu-active {
+    border-bottom: 4px solid #ff0000 !important;
+}
+
+.bg-edit {
+    background-color: #F68A1F;
+    color: white
+}
+
+.bg-edit:hover {
+    background-color: #EA7100;
+    color: white
+}
+
+.menu-link {
+    color: #545DC1;
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.obrigatorio::after {
+    content: '*';
+    margin-left: 5px;
+    color: #ff0000;
+    font-size: 14pt;
+    font-weight: 800;
+}
